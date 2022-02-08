@@ -29,7 +29,6 @@
                 Extra = amount - this.StationaryLoan;
                 System.out.printf("The extra money: MWK%.2f returned \n", Extra );
             }
-            /
             this.StationaryLoan = 0 ;
             this.StationaryLoanInterest = 0 ; 
         }

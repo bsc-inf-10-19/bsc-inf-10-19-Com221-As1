@@ -1,7 +1,7 @@
 import java.util.*;
 class Methods {
    public static Scanner input = new Scanner(System.in);
-   public static void AccountManipulation(Loan Student) {
+   public static void AccountMethods(Loan Student) {
     System.out.println();
     System.out.printf("  Welcome %s (%s, %s) to the loan menu" + 
                     "\n_______________________________________________________________________",
