@@ -132,7 +132,6 @@ public static void accountLogin(){
     System.out.print("Enter your Account number : ");
     //covert user account number code to uppercase
     String accountNum = input.next().toUpperCase();
-    /
     if(accountNum.length() != 5){
         System.out.println("\n!!!You have entered an invalid length of account number" +
                     "\nFormat:: YYXXX, where Y is a letter and X is a digit." );
